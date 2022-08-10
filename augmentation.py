@@ -2,7 +2,7 @@ import albumentations as A
 import numpy as np
 import cv2
 
-__all__= ['cutmix_aug', 'mixup_aug', 'mosaic_aug', 'copy_paste']
+__all__= ['cutmix_aug', 'mixup_aug', 'mosaic_aug', 'copy_paste', 'box_channel_drop']
 
 def cutmix_aug(img_size,
                window_size,
@@ -166,3 +166,18 @@ def copy_paste(img_size,
     mask_1+= mask_2
     
     return img_1, mask_1
+
+
+def box_channel_drop(img_size, window_size, img):
+    box_size= np.random.randint(30, int(img.shape[0])-50)
+    drop_channel= np.random.randint(3)
+    
+    while True:
+        rand_xcoord= np.random.randint(img.shape[0])
+        rand_ycoord= np.random.randint(img.shape[1])
+        try:
+            img[rand_xcoord:rand_xcoord+box_size, rand_ycoord:rand_ycoord+box_size, drop_channel]=0
+            break
+        except:
+            pass
+    return img
