@@ -45,3 +45,9 @@
 - TTA * 8
 - choosing lower threshold for Hubmap data
 - 2 model(CNN) for lung type prediction, 4 model(Transformer) for the others. (total 6 model)
+
+## Top place method which I missed
+- Pseudo label on GTEX portal data.
+- Using full dataset to create one model (no validation).
+- SWA or model fusion in the same training pipeline.
+- Stain Normalization while inference (not only training).
