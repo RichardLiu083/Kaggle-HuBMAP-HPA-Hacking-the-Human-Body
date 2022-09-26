@@ -5,7 +5,7 @@
 
 ## Solution
 
-## Insights
+## Insight
 - Split the main task into two subtask (predict lung type and the others), which makes the model more stable while training and validation. 
   Probably because lung type have weak signal and also noisy label.
 - CNN model is better than transformer model on lung type prediction.
@@ -15,7 +15,7 @@
 - Doing Mosaic、Cutmix augmentation on lung type data will lead to performence drop.
 - Multi-classes model is worse than single class model.
 
-## Models
+## Model
 - EfficientNet_b7 * 2 (Unet decoder)
 - Coat_medium (Daformer decoder)
 - Segformer_b5 * 2 (different image size)
