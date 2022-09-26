@@ -34,7 +34,7 @@
 
 ## Training
 - 100 epochs
-- lr 3e-4 for CNN, 6e-5 for transformer
+- lr 3e-4 for CNN, 6e-5 for Transformer
 - bce + dice loss
 
 ## Validation
