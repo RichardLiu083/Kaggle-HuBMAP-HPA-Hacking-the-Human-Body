@@ -42,7 +42,7 @@
 - only choose best model from validation
 
 ## Inference
-- TTA * 8
+- TTA * 8 (Flip、Rotate)
 - choosing lower threshold for Hubmap data
 - 2 model (CNN) for lung type prediction, 4 model (Transformer) for the others. (total 6 model)
 
