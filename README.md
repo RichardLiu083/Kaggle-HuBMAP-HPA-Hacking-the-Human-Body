@@ -8,8 +8,8 @@
 ## Insights
 - Split the main task into two subtask (predict lung type and the others), which makes the model more stable while training and validation. 
   Probably because lung type have weak signal and also noisy label.
-- CNN model is better than transformer model when predicting lung type.
-- Transformer model is better than CNN model when predicting the other type.
+- CNN model is better than transformer model on lung type prediction.
+- Transformer model is better than CNN model while predicting the other types.
 - Stain Normalization can reduce the difference between HPA and Hubmap data.
 - Scale adjustment is crucial since HAP data have different pixel size compare to Hubmap data.
 - Doing Mosaic、Cutmix augmentation on lung type data will lead to performence drop.
