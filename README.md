@@ -14,7 +14,8 @@
 - Multi-classes model is worse than single class model.
 
 ## Models
-- Coat_medium
+- EfficientNet_b7 * 2 (Unet decoder)
+- Coat_medium (Daformer decoder)
 - Segformer_b5 * 2 (different image size)
 - Beit_base
 
@@ -41,4 +42,4 @@
 ## Inference
 - TTA * 8
 - choosing lower threshold for Hubmap data
-- 2 model(CNN) for lung type, 4 model(Transformer) for the other type. (total 6 model)
+- 2 model(CNN) for lung type prediction, 4 model(Transformer) for the others. (total 6 model)
