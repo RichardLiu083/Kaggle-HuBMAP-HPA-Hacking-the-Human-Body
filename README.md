@@ -11,7 +11,7 @@
 - CNN model is better than transformer model on lung type prediction.
 - Transformer model is better than CNN model while predicting the other types.
 - Stain Normalization can reduce the difference between HPA and Hubmap data.
-- Scale adjustment is crucial since HAP data have different pixel size compare to Hubmap data.
+- Scale adjustment is crucial since HPA data have different pixel size compare to Hubmap data.
 - Doing Mosaic、Cutmix augmentation on lung type data will lead to performence drop.
 - Multi-classes model is worse than single class model.
 
