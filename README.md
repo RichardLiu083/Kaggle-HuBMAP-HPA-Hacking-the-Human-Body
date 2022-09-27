@@ -4,6 +4,7 @@
 ![image](https://github.com/RichardLiu083/Kaggle-HuBMAP-HPA-Hacking-the-Human-Body/blob/main/ranking.png)
 
 ## Solution
+![image](https://github.com/RichardLiu083/Kaggle-HuBMAP-HPA-Hacking-the-Human-Body/blob/main/Inference%20Pipeline.png)
 
 ## Insight
 - Split the main task into two subtask (predict lung type and the others), which makes the model more stable while training and validation. 
