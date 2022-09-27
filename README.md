@@ -1,10 +1,10 @@
 # Kaggle-HuBMAP-HPA-Hacking-the-Human-Body
 2022/09/23 - silver medal - Top 4%  
 [Competition Link](https://www.kaggle.com/competitions/hubmap-organ-segmentation)
-![image](https://github.com/RichardLiu083/Kaggle-HuBMAP-HPA-Hacking-the-Human-Body/blob/main/ranking.png)
+![image](https://github.com/RichardLiu083/Kaggle-HuBMAP-HPA-Hacking-the-Human-Body/blob/main/img/Rank.png)
 
 ## Solution
-![image](https://github.com/RichardLiu083/Kaggle-HuBMAP-HPA-Hacking-the-Human-Body/blob/main/Inference%20Pipeline.png)
+![image](https://github.com/RichardLiu083/Kaggle-HuBMAP-HPA-Hacking-the-Human-Body/blob/main/img/Inference%20Pipeline.png)
 
 ## Insight
 - Split the main task into two subtask (predict lung type and the others), which makes the model more stable while training and validation. 
